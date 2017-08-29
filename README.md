@@ -1,4 +1,4 @@
-rtbeat
+# heartbeat
 
 Monitor online status of another machine via ping. Notify when status changes via pushover.
 
