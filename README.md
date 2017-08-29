@@ -9,3 +9,9 @@ Monitor online status of another machine via ping. Notify when status changes vi
 APPTOKEN
 USERTOKEN
 ```
+
+### Sample crontab entry 
+```
+*/1 * * * * /home/pi/repo/heartbeat/heartbeat.rb /home/pi/repo/heartbeat/config.txt 2>&1
+```
+
